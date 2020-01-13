@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LDFCore.Platform", "LDFCore.Platform\LDFCore.Platform.csproj", "{E2FBC500-3B57-41E8-B0BD-90F6923EBDA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDFCore.Caching", "LDFCore.Caching\LDFCore.Caching.csproj", "{B8D8003C-3DDC-41CE-88A5-2B502971B2C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LDFCore.Caching", "LDFCore.Caching\LDFCore.Caching.csproj", "{B8D8003C-3DDC-41CE-88A5-2B502971B2C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDFCore.Log", "LDFCore.Logs\LDFCore.Logs.csproj", "{E7554B08-A4F6-4A2D-AED6-9BF6C2F6E064}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDFCore.Logs", "LDFCore.Logs\LDFCore.Logs.csproj", "{E7554B08-A4F6-4A2D-AED6-9BF6C2F6E064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDFCore.Job", "LDFCore.Job\LDFCore.Job.csproj", "{062D48D6-5DAE-4004-BA7D-1D4FB924FB5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LDFCore.Job", "LDFCore.Job\LDFCore.Job.csproj", "{062D48D6-5DAE-4004-BA7D-1D4FB924FB5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDFCore.Monitoring", "LDFCore.Monitoring\LDFCore.Monitoring.csproj", "{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,18 @@ Global
 		{062D48D6-5DAE-4004-BA7D-1D4FB924FB5F}.Release|x64.Build.0 = Release|Any CPU
 		{062D48D6-5DAE-4004-BA7D-1D4FB924FB5F}.Release|x86.ActiveCfg = Release|Any CPU
 		{062D48D6-5DAE-4004-BA7D-1D4FB924FB5F}.Release|x86.Build.0 = Release|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Debug|x64.Build.0 = Debug|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Debug|x86.Build.0 = Debug|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Release|x64.ActiveCfg = Release|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Release|x64.Build.0 = Release|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Release|x86.ActiveCfg = Release|Any CPU
+		{465062C5-0A33-4D0E-AAD3-0D4CA1B3A2C9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
